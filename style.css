@@ -50,6 +50,14 @@ p{
     color: #ffffffde;
 }
 
+/* why choose section */
+.choose-us-section img{
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: contain !important;
+}
+
+
 /* global style */
 .text-capitalize{
     text-transform: capitalize;
@@ -57,4 +65,5 @@ p{
 
 .text-uppercase{
     text-transform: uppercase;
+    
 }
