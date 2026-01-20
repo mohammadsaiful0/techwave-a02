@@ -18,7 +18,7 @@
 </head>
 <body>
     <!-- site Header -->
-   <header class="bg-linear-to-r from-[#0B0215] via-[#1A0833] to-[#0B0215] text-white">
+   <header class="bg-[#1A0B2E] text-white border-b border-[#412567]">
     <div class="header-section flex items-center justify-between w-full max-w-[1200px] mx-auto py-6">
         
         <div class="logo"><a href="#"><img src="./assets/logo.png" alt="TechWave Logo"></a></div>
@@ -37,14 +37,61 @@
         </div>
 
     </div>
-
+   </header>
+   <main>
     <!-- hero section -->
-    <section class="hero-section h-screen w-full">
+    <section class="hero-section h-screen w-full flex flex-col justify-center items-center text-center relative py-4">
+        <div class="hero-mic-icon flex justify-center items-center mt-[-50px] mb-5">
+            <img src="./assets/microphone.png" alt="" srcset="">
+        </div>
+
+        <div class="hero-content">
+            <h1 class="text-6xl font-bold text-white mb-6">TechWave</h1>
+            <p class="text-white text-lg mb-8 max-w-2xl mx-auto font-normal">
+                Your daily dose of tech insights, productivity hacks, and personal growth
+            </p>
+            <div class="hero-cta-btn flex gap-6 justify-center items-center">
+                <button class="bg-linear-to-r from-pink-500 to-purple-500 py-3 px-3 w-50 rounded-3xl text-white font-medium text-capitalize"> <i class="fa-brands fa-spotify"></i> listen on spotify</button>
+                <button class="border-2 border-[#00FF88] py-3 px-3 w-50 rounded-3xl text-white font-medium text-capitalize"> <i class="fa-solid fa-envelope"></i> Subscribe</button>
+            </div>
+        </div>
 
     </section>
 
+    <!-- about section -->
+     <section class="about-section bg-[#1A0B2E] py-10 text-center text-white  flex flex-col justify-center items-center gap-6 px-4 w-full">
+        <div class="about-content">
+            <h2 class="text-6xl text-white font-bold text-capitalize">about the Podcast</h2>
+        <p class="max-w-3xl">
+            TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. 
+            We break down complex topics into digestible insights, explore productivity strategies that actually work, and share stories of personal growth from industry leaders.
+            <br> <br>
+            Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+        </p>
+        </div>
 
-   </header>
+        <div class="about-stats flex justify-center items-center gap-20 mt-8 text-uppercase border-t border-[#4025677e] py-8 w-full max-w-5xl">
+            <div class="stat-item">
+                <h3 class="text-5xl font-bold text-[#00FF88]">15k+</h3>
+                <p class="text-lg">monthly listeners</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="text-5xl font-bold text-[#00FF88] mb-2">200+</h3>
+                <p class="text-lg">episodes published</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="text-5xl font-bold text-[#00FF88] mb-2">4.9</h3>
+                <p class="text-lg">average rating</p>
+            </div>
+            <div class="stat-item">
+                <h3 class="text-5xl font-bold text-[#00FF88] mb-2">50+</h3>
+                <p class="text-lg">industry experts</p>
+            </div>
+            
+        </div>
+     </section>
+   
+</main>
 
 
 </body>
