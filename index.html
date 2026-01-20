@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <!-- stylesheet link    -->
     <link rel="stylesheet" href="style.css">
-    <!-- fontawesome cdn -->
+    <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>TechWave</title>
 
@@ -25,9 +25,9 @@
         
         <nav class="nav-menu ">
             <ul class=" flex items-center gap-8 text-sm font-medium text-white" style="text-transform: capitalize;">
-                <li><a class="relative transition  hover:text-pink-400  after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-linear-to-r after:from-pink-500 after:to-purple-500 after:transition-all after:duration-300  hover:after:w-full" href="#">About</a></li>
-                <li><a class="relative transition  hover:text-pink-400  after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-linear-to-r after:from-pink-500 after:to-purple-500 after:transition-all after:duration-300  hover:after:w-full" href="#">episodes</a></li>
-                <li><a class="relative transition  hover:text-pink-400  after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0 after:bg-linear-to-r after:from-pink-500 after:to-purple-500 after:transition-all after:duration-300  hover:after:w-full" href="#">host</a></li>
+                <li><a class="relative transition  hover:text-pink-400  after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-linear-to-r after:from-pink-500 after:to-purple-500 after:transition-all after:duration-300  hover:after:w-full" href="#">About</a></li>
+                <li><a class="relative transition  hover:text-pink-400  after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-linear-to-r after:from-pink-500 after:to-purple-500 after:transition-all after:duration-300  hover:after:w-full" href="#">episodes</a></li>
+                <li><a class="relative transition  hover:text-pink-400  after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-linear-to-r after:from-pink-500 after:to-purple-500 after:transition-all after:duration-300  hover:after:w-full" href="#">host</a></li>
                 
             </ul>
         </nav>
@@ -135,8 +135,103 @@
         </div>
 
      </section>
+
+
+     <!-- featured episodes section -->
+
+    <section class="featured-section bg-[#1A0B2E] text-white py-20 px-4 w-full flex flex-col justify-center items-center">
+            <h3 class="section-title text-4xl font-bold text-center">Featured Episodes</h3>
+        <!-- cards-grid-video -->
+        <div class="episodes-cards-container relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-[1200px] w-full mx-auto px-4">
+            
+            <div class="episodes-items flex flex-col rounded-3xl overflow-hidden shadow-lg group bg-[#250D44]">     
+                <div class="relative w-full aspect-video bg-black">
+                    <video  class="peer w-full h-full object-cover outline-none cursor-pointer" controls playsinline poster="./assets/video-poster-1.png"
+                            src="https://static.vecteezy.com/system/resources/previews/005/970/397/mp4/4k-timelapse-sequence-of-hong-kong-china-downtown-traffic-at-night-video.mp4">
+                    </video>
+                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-200 peer-focus:opacity-0 peer-focus:invisible">
+                        <div class="w-16 h-16 bg-linear-to-b from-pink-600 to-yellow-200 backdrop-blur-sm rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-play text-white text-2xl ml-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="items-content p-5 w-full flex flex-col gap-2">
+                    <h3 class="text-2xl text-white font-semibold">The Future of AI in Everyday Life</h3>
+                    <p class="text-gray-400 text-sm ">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                    <div class="flex items-center gap-2 mt-2">
+                        <i class="fa-solid fa-clock text-green-400"></i>
+                        <span class="text-green-400 font-semibold text-sm">42 min</span>
+                    </div>
+                </div>           
+            </div>
+
+            <div class="episodes-items flex flex-col rounded-3xl overflow-hidden shadow-lg group bg-[#250D44]">     
+                <div class="relative w-full aspect-video bg-black">
+                    <video  class="peer w-full h-full object-cover outline-none cursor-pointer" controls playsinline poster="./assets/video-poster-2.png"
+                            src="https://static.vecteezy.com/system/resources/previews/005/970/397/mp4/4k-timelapse-sequence-of-hong-kong-china-downtown-traffic-at-night-video.mp4">
+                    </video>
+                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-200 peer-focus:opacity-0 peer-focus:invisible">
+                        <div class="w-16 h-16 bg-linear-to-b from-pink-600 to-yellow-200 backdrop-blur-sm rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-play text-white text-2xl ml-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="items-content p-5 w-full flex flex-col gap-2">
+                    <h3 class="text-2xl text-white font-semibold">Building Better Habits for Remote Work</h3>
+                    <p class="text-gray-400 text-sm ">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                    <div class="flex items-center gap-2 mt-2">
+                        <i class="fa-solid fa-clock text-green-400"></i>
+                        <span class="text-green-400 font-semibold text-sm">35 min</span>
+                    </div>
+                </div>           
+            </div>
+
+            <div class="episodes-items flex flex-col rounded-3xl overflow-hidden shadow-lg group bg-[#250D44]">     
+                <div class="relative w-full aspect-video bg-black">
+                    <video  class="peer w-full h-full object-cover outline-none cursor-pointer" controls playsinline poster="./assets/video-poster-3.png"
+                            src="https://static.vecteezy.com/system/resources/previews/005/970/397/mp4/4k-timelapse-sequence-of-hong-kong-china-downtown-traffic-at-night-video.mp4">
+                    </video>
+                    <div class="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-200 peer-focus:opacity-0 peer-focus:invisible">
+                        <div class="w-16 h-16 bg-linear-to-b from-pink-600 to-yellow-200 backdrop-blur-sm rounded-full flex items-center justify-center">
+                            <i class="fa-solid fa-play text-white text-2xl ml-1"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="items-content p-5 w-full flex flex-col gap-2">
+                    <h3 class="text-2xl text-white font-semibold">Career Growth in Tech: A Roadmap</h3>
+                    <p class="text-gray-400 text-sm ">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                    <div class="flex items-center gap-2 mt-2">
+                        <i class="fa-solid fa-clock text-green-400"></i>
+                        <span class="text-green-400 font-semibold text-sm">51 min</span>
+                    </div>
+                </div>           
+            </div>
+
+        </div>
+
+        <h3 class="text-5xl text-capitalize font-bold mt-25">meet the host</h3>
+        <!-- cta-host -->
+         <div class="host-cta max-w-[1200px] bg-[#250E44] p-5 rounded-3xl mt-10 w-full flex flex-col md:flex-row items-center gap-6 mx-auto">
+            <img src="./assets/host.png" alt="host image" class="w-50 h-50 rounded-full mx-auto mb-4">
+            <div class="host-content p-2">
+                <h3 class="text-3xl font-bold">Alex Kumar</h3>
+                <p class="text-gray-400 text-1xl">Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+                <ul class="social-icons flex justify-start items-start gap-2 mt-4">
+                    <li class="border border-[#533C72] p-2 object-contain rounded-full "><a  href="#"><img class="w-full h-full" src="./assets/linkedin.png" alt="linkedin social icon" ></a></li>
+                    <li class="border border-[#533C72] p-2 object-contain rounded-full "><a  href="#"><img class="w-full h-full" src="./assets/x.png" alt="twitter social icon" ></a></li>
+                    <li class="border border-[#533C72] p-2 object-contain rounded-full "><a  href="#"><img class="w-full h-full" src="./assets/instagram.png" alt="instagram social icon" ></a></li>
+                    <li class="border border-[#533C72] p-2 object-contain rounded-full "><a  href="#"><img class="w-full h-full" src="./assets/youtube.png" alt="youtube social icon" ></a></li>
+                </ul>
+            </div>
+
+         </div>
+
+    </section>
+    
+
    
 </main>
+
 
 
 </body>

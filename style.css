@@ -1,3 +1,8 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
 *,p,h1,h2,h3,h4,h5,h6,a,span,div,section{
     font-family: "Inter", sans-serif;
 }
@@ -5,7 +10,7 @@
 p{
     font-weight: 400 !important;
     font-size: 16px !important;
-    color: #ffffffde;
+   
 }
 
 /* hero section style */
