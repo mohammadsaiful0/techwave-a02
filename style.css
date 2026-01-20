@@ -62,6 +62,15 @@ p{
     object-fit: contain !important;
 }
 
+/* footer style */
+
+footer{
+    background: url("./assets/footer-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* global style */
 .text-capitalize{
