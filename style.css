@@ -9,7 +9,7 @@
 
 p{
     font-weight: 400 !important;
-    font-size: 16px !important;
+    font-size: 16px;
    
 }
 
@@ -53,12 +53,6 @@ p{
     color: #ffffffde;
 }
 
-/* why choose section */
-.choose-us-section img{
-    width: 50px !important;
-    height: 50px !important;
-    object-fit: contain !important;
-}
 
 /* footer style */
 
@@ -83,6 +77,9 @@ footer{
     background-position: top center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+p{
+    font-size: 14px !important;
 }
 }
 
