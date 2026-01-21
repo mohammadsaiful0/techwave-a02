@@ -17,7 +17,7 @@ p{
 .hero-section{
     background-image: url("./assets/hero-bg.png");
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
     
 
@@ -27,8 +27,6 @@ p{
     background-image: url("./assets/hero-circle.png");
     background-size: cover;
     background-repeat: no-repeat;
-    width: 430px;
-    height: 430px;
     position: relative;
 }
 
@@ -69,6 +67,23 @@ footer{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero-section{
+    background-image: url("./assets/mobile-hero-bg.png");
+    }
+    .hero-mic-icon::after{
+        top: 0;
+        right: 0;
+}
+    footer{
+    background: url("./assets/mobiile-footer-bg.png");
+    background-position: top center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
 }
 
 
